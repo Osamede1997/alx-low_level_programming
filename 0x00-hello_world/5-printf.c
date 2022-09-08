@@ -2,7 +2,7 @@
 /**
  * main-Entry point
  * printf: prints string/char*
- * return value: Always 0(success)
+ * return value of main: Always 0(success)
  */
 int main(void)
 {
