@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main function that prints out a string
- * returns 0 as its end value
+ * main-Entry point
+ * return value: Always 0(success)
  */
 int main(void)
 {
