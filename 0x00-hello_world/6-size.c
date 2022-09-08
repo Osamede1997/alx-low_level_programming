@@ -8,6 +8,9 @@
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle\n");
+printf("Size of a char: ", );
+printf("Size of an int: ");
+printf("Size of a long long int: ");
+printf("Size of a float: ")
 return (0);
 }
