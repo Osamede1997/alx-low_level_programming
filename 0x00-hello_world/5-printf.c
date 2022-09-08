@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main-Entry point prints ith proper grammar, but the outcome is a piece of art
- * return value of main: Always 0(success)
+ * returns a value of 0 for success
  */
 int main(void)
 {
