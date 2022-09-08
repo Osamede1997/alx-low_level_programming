@@ -1,7 +1,7 @@
 #include <stdio.h>
-/**
- * main-Entry point
- * printf: prints string/char*
+/**int
+ * main-Entry po
+ * description: prints string/char*
  * return value of main: Always 0(success)
  */
 int main(void)
