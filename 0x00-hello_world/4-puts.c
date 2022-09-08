@@ -3,6 +3,7 @@
 
 /**
  * main-Entry point
+ * puts: prints string/char*
  * return value: Always 0(success)
  */
 int main(void)
