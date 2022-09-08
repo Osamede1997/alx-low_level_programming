@@ -1,7 +1,6 @@
 #include <stdio.h>
-/**int
- * main-Entry po
- * description: prints string/char*
+/**
+ * main-Entry point prints ith proper grammar, but the outcome is a piece of art
  * return value of main: Always 0(success)
  */
 int main(void)
