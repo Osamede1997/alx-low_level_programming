@@ -6,8 +6,10 @@
 /* betty style doc for function main goes there */
 /**
  * main function prints out answers to conditional statements
- * return value is 0 if code runs succesful
- */ 
+ * the program compares n with 0 and print if negative, positive or 0
+ * return value of main is 0 if code runs succesful or non-zero
+ * if otherwise
+ */
 int main(void)
 {
 int n;
