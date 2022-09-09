@@ -2,14 +2,10 @@
 #include <stdio.h>
 #include <time.h>
 /* more headers goes there */
-
-/* betty style doc for function main goes there */
 /**
- * main function prints out answers to conditional statements
- * the program compares n with 0 and print if negative, positive or 0
- * return value of main is 0 if code runs succesful or non-zero if code 
- * unsuccesful
- * Return: 0 if exited properly and non-zero if otherwise
+ * main - entry point
+ * 
+ * return: code returns 0 always for success
  */
 int main(void)
 {
