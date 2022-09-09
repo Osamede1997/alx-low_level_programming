@@ -4,8 +4,7 @@
 /* more headers goes there */
 /**
  * main - entry point
- * 
- * return: code returns 0 always for success
+ * return: returns a value of 0 for success
  */
 int main(void)
 {
