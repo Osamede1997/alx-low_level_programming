@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 int main(void)
 {
 int n;
 for (n = 0; n < 10; ++n)
 {
-printf("%i", n);
+write(1, n, sizeof(n));
 }
-printf("\n");
+putchar("\n");
 return (0);
 }
