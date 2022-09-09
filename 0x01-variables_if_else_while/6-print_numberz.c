@@ -3,10 +3,7 @@
 #include <unistd.h>
 
 /**
- * main entry point, it compares a random number to 5, 6, 0
- * the return value of the main function is 0 if the code runs 
- * successful, it returns a non zero value if the code 
- * isnt successful
+ * main - entry point
  * Return: 0 if exited properly and non-zero if otherwise
  */
 
@@ -17,6 +14,5 @@ for (n = 0; n < 10; ++n)
 {
 write(1, &n, sizeof(n));
 }
-putchar("\n");
 return (0);
 }
