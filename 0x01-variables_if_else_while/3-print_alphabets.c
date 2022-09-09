@@ -4,11 +4,11 @@
 int main(void)
 {
 char x;
+char q;
 for (x = 'a'; x <= 'z'; ++x)
 {
 putchar(x);
 }
-char q;
 for (q = 'A'; x <= 'Z'; ++q)
 putchar(q);
 }
