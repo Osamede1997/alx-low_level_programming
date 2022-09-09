@@ -13,6 +13,5 @@ for (q = 'A'; x <= 'Z'; ++q)
 putchar(q);
 }
 putchar('\n');
-}
 return (0);
 }
