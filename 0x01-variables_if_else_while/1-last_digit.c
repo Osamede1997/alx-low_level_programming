@@ -5,10 +5,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * main entry point, it compares a random number to 5, 6, 0
- * the return value of the main function is 0 if the code runs 
- * successful, it returns a non zero value if the code 
- * isnt successful
+ * main - entry point
  * Return: 0 if exited properly and non-zero if otherwise
  */
 int main(void)
@@ -21,15 +18,15 @@ n = rand() - RAND_MAX / 2;
 
 if (n % 10 > 5)
 {
-printf("Last digit of %i is %i and is greater than 5\n", n, n%10);
+printf("Last digit of %i is %i and is greater than 5\n", n, n % 10);
 }
 else if (n % 10 == 0)
 {
-printf("Last digit of %i is %i and is 0\n", n, n%10);
+printf("Last digit of %i is %i and is 0\n", n, n % 10);
 }
 else if (n % 10 < 6 && n % 10 != 0)
 {
-printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n%10);
+printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
 }
 else
 {
