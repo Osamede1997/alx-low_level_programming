@@ -2,8 +2,8 @@
 #include <string.h>
 
 /**
- * main-Entry point prints the sizes of various data types
- * Retut
+ * main- prints with proper grammar, but the outcome is a piece of art
+ * Return: 0 if exited properly and non-zero if otherwise
  */
 int main(void)
 {
