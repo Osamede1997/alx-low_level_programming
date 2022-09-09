@@ -3,14 +3,13 @@
 
 /**
  * main-Entry point prints the sizes of various data types
- * return value of main is 0 for success, and positive int for 
- * failure.
+ * Retut
  */
 int main(void)
 {
-printf("Size of a char: ", sizeof(char));
-printf("Size of an int: ", sizeof(int));
-printf("Size of a long long int: ");
-printf("Size of a float: ", sizeof(float))
+printf("Size of a char: %i\n", (int)sizeof(char));
+printf("Size of an int: %i\n", (int)sizeof(int));
+printf("Size of a long long int: %i\n", (int)sizeof(long long int));
+printf("Size of a float: %i\n", (int)sizeof(float))
 return (0);
 }
