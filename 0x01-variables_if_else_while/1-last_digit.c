@@ -5,6 +5,7 @@
 /* betty style doc for function main goes there */
 /**
  * main entry point, it compares the
+ */
 int main(void)
 {
 int n;
