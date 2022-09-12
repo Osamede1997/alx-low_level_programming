@@ -16,7 +16,11 @@ for (n = 0; n <= 89; n++)
 e = (n/10 + '0');
 b = (n%10 + '0');
 
-if ((e * b != b * e) && (e + b != b + e))
+if ((e * b == b * e) && (e + b == b + e))
+{
+break;
+}
+else
 {
 putchar(e);
 putchar(b);
