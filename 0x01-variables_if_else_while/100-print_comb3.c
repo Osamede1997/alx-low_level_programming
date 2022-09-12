@@ -16,10 +16,13 @@ for (n = 0; n <= 89; n++)
 e = (n/10 + '0');
 b = (n%10 + '0');
 
+if ((e * b != b * e) && (e + b != b + e))
+{
 putchar(e);
 putchar(b);
 putchar(',');
 putchar(' ');
+}
 }
 putchar('\n');
 return (0);
