@@ -16,6 +16,8 @@ e = n/10 + '0';
 b = n%10 + '0';
 for (n = 0; n <= 89; n++)
 {
+
+    
 putchar(e);
 putchar(b);
 putchar(',');
