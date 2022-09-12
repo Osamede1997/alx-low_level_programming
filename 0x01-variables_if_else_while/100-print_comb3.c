@@ -11,12 +11,10 @@ int n;
 int e;
 int b;
 
-
-e = (n/10 + '0');
-b = (n%10 + '0');
 for (n = 0; n <= 89; n++)
 {
-
+e = (n/10 + '0');
+b = (n%10 + '0');
 
 putchar(e);
 putchar(b);
