@@ -11,16 +11,13 @@ int n;
 int e;
 int b;
 
-for (n = 0; n <= 89; n++)
+while (n < 100)
 {
+n = 0;
 e = (n/10 + '0');
 b = (n%10 + '0');
 
-if ((e * b == b * e) && (e + b == b + e))
-{
-break;
-}
-else
+if (e < b)
 {
 putchar(e);
 putchar(b);
