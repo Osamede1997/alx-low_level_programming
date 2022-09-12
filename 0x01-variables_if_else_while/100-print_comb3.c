@@ -20,8 +20,11 @@ if (e < b)
 {
 putchar(e);
 putchar(b);
+if (n < 89)
+{
 putchar(',');
 putchar(' ');
+}
 }
 n++;
 }
