@@ -7,13 +7,12 @@
  */
 int main(void)
 {
-int n;
-int e;
-int b;
+int n, e, b;
+
+n = 0;
 
 while (n < 100)
 {
-n = 0;
 e = (n/10 + '0');
 b = (n%10 + '0');
 
@@ -24,6 +23,7 @@ putchar(b);
 putchar(',');
 putchar(' ');
 }
+n++;
 }
 putchar('\n');
 return (0);
