@@ -20,8 +20,8 @@ c = (n % 10 + '0');
 if (a < b && b < c)
 {
 putchar(a);
-putchar(e);
 putchar(b);
+putchar(c);
 if (n < 789)
 {
 putchar(',');
