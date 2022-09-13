@@ -12,7 +12,7 @@ char p[9] = "_putchar";
 while (i < 9)
 {
 _putchar(p[i]);
-n++;
+i++;
 }
 return (0);
 }
