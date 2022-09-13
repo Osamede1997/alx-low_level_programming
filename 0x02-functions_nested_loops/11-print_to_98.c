@@ -13,7 +13,7 @@ if (n < 98)
 {
 for (a = n; n <= 98; a++)
 {
-_putchar(n + '0');
+_putchar(a + '0');
 _putchar(',');
 _putchar(' ');
 }
@@ -22,7 +22,7 @@ else if (n > 98)
 {
 for (a = n; a >= 98; a--)
 {
-_putchar(n + '0');
+_putchar(a + '0');
 _putchar(',');
 _putchar(' ');
 }
