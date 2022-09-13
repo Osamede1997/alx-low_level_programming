@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
  * main - entry point
@@ -7,11 +7,11 @@
 
 int main(void)
 {
-int n;
+int n = 0;
 char p[9] = "_putchar";
-while (n > 9)
+while (n < 9)
 {
-write(1, p[n], 1);
+_putchar(c[i])
 n++;
 }
 return (0);
