@@ -2,7 +2,7 @@
 
 /**
  * _islower - check if alphabet is uppercase
- * @c - letter being tested
+ * @c : character to check the case
  * Return: Always 0.
  */
 
