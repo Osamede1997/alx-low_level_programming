@@ -8,8 +8,8 @@
 int main(void)
 {
 int i = 0;
-char p[9] = "_putchar";
-while (i < 9)
+char p[8] = "_putchar";
+while (i < 8)
 {
 _putchar(p[i]);
 i++;
