@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_last_digit - Prints the last digit of an int 
- * @n : integer to be tested 
- * Returns i - the last digit of the number
+ * _abs - Prints the absolute value of integer
+ * @n : integer to be tested
+ * Returns n - returns the absolute value of integer
  */
 
 int _abs(int n)
@@ -13,7 +13,7 @@ if (n > 0)
 return (n);
 
 }
-else 
+else
 {
 n = -1 * n;
 return (n);
