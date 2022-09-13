@@ -12,9 +12,7 @@ char n;
 for (n = 'a'; n <= 'z'; n++)
 {
 _putchar(n);
-if (n > 'z')
-{
-_putchar('\n');
 }
+_putchar('\n')
 }
 }
