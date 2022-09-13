@@ -11,7 +11,7 @@ int n;
 char p[9] = "_putchar";
 while (n > 9)
 {
-write(1, &p[n], 1);
+write(1, p[n], 1);
 n++;
 }
 return (0);
