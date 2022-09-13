@@ -2,7 +2,7 @@
 
 /**
  * main - check the code
- *
+ * print_alphabet - function prints the alphabet in lower case
  * Return: Always 0.
  */
 
@@ -12,7 +12,7 @@ char n;
 for (n = 'a'; n <= 'z'; n++)
 {
 _putchar(n);
-if (n < 'z')
+if (n > 'z')
 {
 _putchar('\n');
 }
