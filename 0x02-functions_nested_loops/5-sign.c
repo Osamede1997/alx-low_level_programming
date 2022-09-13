@@ -2,7 +2,7 @@
 
 /**
  * print_sign - checks if int is less, equal or greater than 0
- * @n : integer to be tested 
+ * @n : integer to be tested
  * Return: 0 if zero, 1 if positive and -1 if negative
  */
 
