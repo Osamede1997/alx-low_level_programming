@@ -7,11 +7,11 @@
 
 int main(void)
 {
-int n = 0;
+int i = 0;
 char p[9] = "_putchar";
-while (n < 9)
+while (i < 9)
 {
-_putchar(c[i])
+_putchar(p[i])
 n++;
 }
 return (0);
