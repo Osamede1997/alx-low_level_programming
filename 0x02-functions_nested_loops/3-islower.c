@@ -2,6 +2,7 @@
 
 /**
  * _islower - check if alphabet is lowercase
+ * int c - letter being tested
  * Return: Always 0.
  */
 
