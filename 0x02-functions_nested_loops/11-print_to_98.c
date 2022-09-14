@@ -25,7 +25,7 @@ printf("%i, ", a);
 }
 printf("98\n");
 }
-else (n == 0)
+else
 {
 printf("98\n");
 }
