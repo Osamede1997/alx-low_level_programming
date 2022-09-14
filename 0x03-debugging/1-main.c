@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - entry point, prints if integer is positive or negative
- * Return: value of 0 if success
+* main - causes a loop, prints statements of loop
+* Return: value of 0 if success
 */
 
 int main(void)
@@ -13,10 +13,10 @@ printf("Infinite loop incoming :(\n");
 
 i = 0;
 /**
- * while (i < 10)
- * {
- * putchar(i);
- * }
+* while (i < 10)
+* {
+* putchar(i);
+* }
 */
 printf("Infinite loop avoided! \\o/\n");
 
