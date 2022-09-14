@@ -1,23 +1,34 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * add - Prints the value of sum of two integer
- * @a: integer to be used
- * @b: integer to be used
- * Return: return value of sum
+ * times_table - prints out the multiplication table
+ * Return: returns no value
  */
 void times_table(void)
 {
-int a;
-int n;
-int b;
+int a, b, n;
 
-while (n <= 9)
+for (a = 0; a < 10; a++)
 {
-for (a = 0; a < 8; a++)
+_putchar('0');
+for (b = 1; a < 8; b++)
 {
-b = a * n
+_putchar(',');
+_putchar(' ');
+
+n = a * b
+
+if (n <= 9)
+{
+_putchar(' ');
+}
+else
+{
+_putchar((product / 10) + '0');
+_putchar((product % 10) + '0');
 }
 }
 }
+_putchar('\n');
+return;
 }
