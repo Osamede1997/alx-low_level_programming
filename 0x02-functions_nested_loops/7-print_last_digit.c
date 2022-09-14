@@ -3,22 +3,16 @@
 /**
  * print_last_digit - Prints the last digit of an int
  * @n : integer to be tested
- * Return - return the value of last digit of @n
+ * Return - value of last digit of @n
  */
 
 int print_last_digit(int n)
 {
-int a;
-if (n > 0)
+int a = n % 10;
+if (n < 0)
 {
-a = (n % 10);
-_putchar(a + 48);
-return (a);
+a =  1 * (n % 10);
 }
-else
-{
-a = ((-1 * n) % 10);
-_putchar(a + 48);
+_putchar(n + '0');
 return (a);
-}
 }
