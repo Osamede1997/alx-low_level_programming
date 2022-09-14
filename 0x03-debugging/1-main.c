@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - entry point, prints out statements about a loop.
+* main - entry point, prints out statements about a loop
 * Return: value of 0 if successful
 */
 
