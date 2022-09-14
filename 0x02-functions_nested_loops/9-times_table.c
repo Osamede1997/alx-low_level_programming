@@ -17,7 +17,7 @@ if (b == 0)
 {
 _putchar(n + '0');
 }
-else if(n > 9)
+else if (n > 9)
 {
 _putchar(' ');
 _putchar((n / 10) + '0');
