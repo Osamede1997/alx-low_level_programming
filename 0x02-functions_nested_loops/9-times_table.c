@@ -10,24 +10,30 @@ int a, b, n;
 
 for (a = 0; a < 10; a++)
 {
-_putchar('0');
-for (b = 1; a < 8; b++)
+for (b = 0; a < 10; b++)
 {
-_putchar(',');
-_putchar(' ');
-
 n = a * b;
-if (n <= 9)
+if (x == 0)
+{
+_putchar(n + '0');
+}
+else if(n > 9)
 {
 _putchar(' ');
-}
-else
-{
 _putchar((n / 10) + '0');
 _putchar((n % 10) + '0');
 }
+else
+{
+_putchar(' ');
+_putchar(' ');
+_putchar(n + '0');
+}
+if (b != 9)
+{
+_putchar(',');
 }
 }
 _putchar('\n');
-return;
+}
 }
