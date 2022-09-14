@@ -12,13 +12,13 @@ int a;
 if (n > 0)
 {
 a = (n % 10);
-_putchar(a + '0');
+_putchar(a + 48);
 return (a);
 }
 else
 {
 a = ((-1 * n) % 10);
-_putchar(a + '0');
+_putchar(a + 48);
 return (a);
 }
 }
