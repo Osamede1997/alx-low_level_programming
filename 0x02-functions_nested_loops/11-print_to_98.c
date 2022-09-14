@@ -9,7 +9,7 @@
 void print_to_98(int n)
 {
 int a;
-while
+if (n < 98)
 {
 for (a = n; n <= 98; a++)
 {
@@ -21,7 +21,7 @@ else if (n > 98)
 {
 for (a = n; a >= 98; a--)
 {
-printf("%i, ", a)
+printf("%i, ", a);
 printf("98\n");
 }
 }
