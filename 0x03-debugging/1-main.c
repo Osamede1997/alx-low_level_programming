@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - entry point that causes an infinite loop
+* main - entry point, that causes an infinite loop
 * Return: value of 0 if success
 */
 
