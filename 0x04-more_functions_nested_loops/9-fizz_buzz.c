@@ -1,16 +1,36 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * mul - evaluates the product of two ints
- * @a: print int
- * @b : integer to be tested
- * Return: the product of a and b
+ * main - entry point check the code
+ * Return: void
  */
 
-int mul(int a, int b)
+int main(void)
 {
-int c;
-
-c = a * b;
-return (c);
+int i;
+for (i = 1; i < 101; i++)
+{
+if ((i % 3 == 0) && (i % 5 == 0))
+{
+printf("FizzBuzz");
+}
+else if (i % 5 == 0)
+{
+printf("Buzz");
+}
+else if (i % 3 == 0)
+{
+printf("Fizz");
+}
+else
+{
+printf("%i",i);
+}
+if (i != 100)
+{
+printf(" ")
+}
+}
+printf("\n")
 }
