@@ -2,7 +2,7 @@
 
 /**
  * mul - evaluates the product of two ints
- * @a : integer to be tested
+ * @a: print int
  * @b : integer to be tested
  * Return: the product of a and b
  */
