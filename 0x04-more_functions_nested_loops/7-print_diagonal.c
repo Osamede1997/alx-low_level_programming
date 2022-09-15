@@ -6,7 +6,7 @@
  * Return: Always 0
  */
 
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 int i;
 
@@ -18,7 +18,8 @@ else
 {
 for (i = 0; i < n; i++)
 {
-_putchar(95);
+_putchar('\\');
+_putchar('\\');
 }
 _putchar('\n');
 }
