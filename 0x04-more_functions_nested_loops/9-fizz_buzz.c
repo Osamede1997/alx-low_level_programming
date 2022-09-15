@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - entry point check the code
@@ -28,9 +29,9 @@ printf("%i",i);
 }
 if (i != 100)
 {
-printf(" ");
+_putchar(' ');
 }
 }
-printf("\n");
+_putchar('\n');
 }
 
