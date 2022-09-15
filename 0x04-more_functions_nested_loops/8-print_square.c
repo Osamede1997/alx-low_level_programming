@@ -8,12 +8,11 @@
 
 void print_square(int size)
 {
-int i;
-int j;
+int i, j;
 
 i = 0;
 
-if (i > 1)
+if (i < 1)
 {
 _putchar('\n');
 }
