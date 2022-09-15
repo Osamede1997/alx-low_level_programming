@@ -32,6 +32,5 @@ printf(" ");
 }
 }
 printf("\n");
-return;
 }
 
