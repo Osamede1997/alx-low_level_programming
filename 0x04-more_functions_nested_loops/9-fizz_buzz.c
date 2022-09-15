@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * Return: Always 0
+ * main - entry point check the code
+ * Return: void
  */
 
 int main(void)
@@ -32,6 +32,6 @@ printf(" ");
 }
 }
 printf("\n");
-return (0);
+return;
 }
 
