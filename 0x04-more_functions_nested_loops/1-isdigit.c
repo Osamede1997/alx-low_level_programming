@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit : check if digit is from 0 to 9
+ * _isdigit : checks for a digit from 0 to 9
  * @c : character to check the case
  * Return: returns 0 or 1 always
  */
