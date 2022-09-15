@@ -8,8 +8,7 @@
 int main(void)
 {
 int i;
-i = 1;
-while (i < 101)
+for (i = 1; i < 101; i++)
 {
 if ((i % 3 == 0) && (i % 5 == 0))
 {
@@ -25,13 +24,12 @@ printf("Fizz");
 }
 else
 {
-printf("%i", i);
+printf("%i",i);
 }
 if ((i != 100) || (i != 1))
 {
 printf(" ");
 }
-i++;
 }
 printf("\n");
 return (0);
