@@ -9,9 +9,9 @@ void more_numbers(void)
 {
 int j;
 int i;
-int a = 0;
-int b = 0;
-for (j = 0; j < 11; j++)
+int a;
+int b;
+for (j = 0; j < 10; j++)
 {
 for (i = 0; i <= 14; i++)
 {
@@ -19,8 +19,7 @@ if ( i < 10)
 {
 _putchar (i + '0');
 }
-
-if ((i >= 10) && (i <= 14))
+else
 {
 a = i / 10;
 b = i % 10;
