@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_more_numbers - prints numbers from 0 to 14 ten times
+ * more_numbers - prints numbers from 0 to 14 ten times
  * Return: returns void
  */
 
@@ -15,7 +15,7 @@ for (j = 0; j < 10; j++)
 {
 for (i = 0; i <= 14; i++)
 {
-if ( i < 10)
+if (i < 10)
 {
 b = i;
 }
