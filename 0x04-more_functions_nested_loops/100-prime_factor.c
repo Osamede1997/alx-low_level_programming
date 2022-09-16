@@ -8,7 +8,7 @@
 int main(void)
 {
 long i, n;
-n = 612852475143;
+n = 61285247514;
 for (i = 2; i < n; i++)
 {
 while(n % i == 0)
@@ -16,6 +16,6 @@ while(n % i == 0)
 n = n / i;
 }
 }
-printf("%lu", n);
+printf("%lu\n", n);
 return (0);
 }
