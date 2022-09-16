@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - entry point check the code
@@ -33,4 +32,5 @@ printf(" ")
 }
 }
 printf("\n")
+return (0);
 }
