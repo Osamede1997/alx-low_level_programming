@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * reset_to_98 - Reset int to 98
- * @n: parameter tested
+ * swap_int - swap ints
+ * @a: parameter tested
+ * @b: parameter tested
  * Return: void
  */
 
