@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen: lget length of string
+ * _strlen - get length of string
  * @s: parameter tested
  * Return: length of string
  */
