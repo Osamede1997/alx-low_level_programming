@@ -14,7 +14,7 @@ int i;
 for (i = 0; i < n; i++)
 {
 printf("%i", a[i]);
-if (i > 0 && i != n)
+if (i < n)
 {
 printf(", ");
 }
