@@ -4,3 +4,5 @@ int _strlen(char *s);
 int _putchar(char b);
 void _puts(char *s);
 void puts2(char *str);
+void puts_half(char *str);
+void print_array(int *a, int n);
