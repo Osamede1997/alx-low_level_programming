@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _puts2 - print a string
- * @s: parameter tested
+ * puts2 - print a string
+ * @str: parameter tested
  * Return: void
  */
 
