@@ -18,7 +18,7 @@ if (i == 0)
 {
 pin = 1;
 }
-else 
+else
 {
 for (j = 0; a[j] != '\0'; j++)
 {
