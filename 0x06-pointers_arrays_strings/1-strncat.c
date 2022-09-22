@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat - join two strings
+ * _strncat - join two strings
  * @dest: character tested
  * @src: character tested
  * @n: character tested

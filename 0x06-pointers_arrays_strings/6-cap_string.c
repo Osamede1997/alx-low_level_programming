@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - Write a function that encodes a string into 1337
+ * cap_string - Write a function that encodes a string into 1337
  * @s: parameter tested
  * Return: pointer to s
  */

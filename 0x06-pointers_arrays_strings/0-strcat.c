@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat - join two strings
+ * _strcat - join two strings
  * @dest: character tested
  * @src: character tested
  * Return: pointer to dest

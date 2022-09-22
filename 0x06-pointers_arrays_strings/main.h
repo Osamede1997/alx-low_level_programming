@@ -7,3 +7,4 @@ int _putchar(char b);
 int _strcmp(char *s1, char *s2);
 char *leet(char *);
 char *cap_string(char *s);
+char *rot13(char *);
