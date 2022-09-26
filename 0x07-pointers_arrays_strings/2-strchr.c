@@ -4,7 +4,7 @@
  * _strchr - function that locates a character in string
  * @s: string
  * @c: character searched for
- * Return - pointer to string
+ * Return: Pointer to the first occurrence of the character c in the string s
  */
 
 
@@ -18,5 +18,5 @@ if (s[i] == c)
 return (s + i);
 }
 }
-return (0);
+return ('\0');
 }
