@@ -2,9 +2,9 @@
 
 /**
  * _memcpy - copies a string
- * @src: parameter tested
- * @dest: paremeter tested
- * @n: parameter tested
+ * @src: source
+ * @dest: destination
+ * @n: maximum number of bytes
  * Return: pointer to dest
  */
 
