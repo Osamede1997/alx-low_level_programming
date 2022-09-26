@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - join two strings
+ * _memset - function fills memory with a constant byte
  * @s: character tested
  * @b: character tested
  * @n: character tested
