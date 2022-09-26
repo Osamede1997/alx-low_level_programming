@@ -2,7 +2,7 @@
 
 /**
  * _strcat - join two strings
- * @ds: character tested
+ * @s: character tested
  * @b: character tested
  * @n: character tested
  * Return: pointer to s
