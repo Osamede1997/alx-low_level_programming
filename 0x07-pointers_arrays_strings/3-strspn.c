@@ -22,7 +22,7 @@ a++;
 break;
 }
 }
-if (accept[j] == '\0')
+if (accept[j]== '\0')
 {
 break;
 }
