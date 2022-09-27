@@ -4,7 +4,7 @@
  * _strpsn - return number of ocurence of string
  * @s: string
  * @accept: character to match
- * Return: unsigned int
+ * Return: int
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -22,7 +22,7 @@ a++;
 break;
 }
 }
-if (accept[j]== '\0')
+if (accept[j] == '\0')
 {
 break;
 }
