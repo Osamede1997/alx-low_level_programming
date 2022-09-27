@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strpsn - return len 
+ * _strpsn - return number of ocurence of string
  * @s: string
  * @accept: character to match
  * Return: unsigned int
@@ -13,7 +13,7 @@ int i, j, a;
 a = 0;
 for (i = 0; s[i] >= '\0'; i++)
 {
-for (j = 0; accept[j] >= '\0'; j++)
+for (j = 0; accept[j] > '\0'; j++)
 {
 if (s[i] == accept[j])
 {
