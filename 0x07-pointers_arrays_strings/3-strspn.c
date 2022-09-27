@@ -2,7 +2,7 @@
 
 /**
  * _strpsn - return number of ocurence of string
- * @s: string
+ * @s: string to check
  * @accept: character to match
  * Return: int
  */
@@ -22,7 +22,7 @@ a++;
 break;
 }
 }
-if (accept[j]== '\0')
+if (accept[j] == '\0')
 {
 break;
 }
