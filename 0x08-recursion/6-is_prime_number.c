@@ -14,7 +14,7 @@ if (n < 2)
 {
 return (0);
 }
-return (_my_prime(n, n-1));
+return (_my_prime(n, n - 1));
 }
 
 /**
