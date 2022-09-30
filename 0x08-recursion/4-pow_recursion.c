@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _pow_recursions - returns x raised to power y
+ * _pow_recursion - returns x raised to power y
  * @n: int tested
  * Return: facorial
  */
