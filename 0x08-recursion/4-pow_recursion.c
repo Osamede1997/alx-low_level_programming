@@ -2,7 +2,8 @@
 
 /**
  * _pow_recursion - returns x raised to power y
- * @n: int tested
+ * @x: int tested
+ * @y: int tested
  * Return: facorial
  */
 int _pow_recursion(int x, int y)
