@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - adds positive integers
+ * @argc: int
+ * @argv: array
+ * Return: 0 if success
+ */
+
+
 
 int isNUMBER(char *s);
 
