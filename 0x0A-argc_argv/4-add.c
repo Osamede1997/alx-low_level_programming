@@ -5,7 +5,7 @@
  * main - adds positive integers
  * @argc: int
  * @argv: array
- * Return: 0 if success
+ * return: 0
  */
 
 
