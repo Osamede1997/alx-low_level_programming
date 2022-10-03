@@ -4,7 +4,7 @@
 /**
  * isNumber - checks if array element is an int
  * @s: array pointer
- * Return: 0 f0r success
+ * Return: 0 for success
  */
 
 
@@ -23,7 +23,7 @@ return (0);
 }
 
 /**
- * main - program entry, adds int in command line
+ * mn - program entry, adds int in command line
  * @argc: argument count
  * @argv: argument vector
  * Return: 0 if success
@@ -32,15 +32,16 @@ return (0);
 
 int main(int argc, char *argv[])
 {
+int i;
 int sum = 0;
-while(--argc)
+for (i = 1; i < argc; i++)
 {
-if (isNUMBER(argv[argc]))
+if (isNUMBER(argv[i]))
 {
 printf("Error\n");
 return (1);
 }
-sum += atoi(argv[argc]);
+sum += atoi(argv[i]);
 }
 printf("%i\n", sum);
 return (0);
