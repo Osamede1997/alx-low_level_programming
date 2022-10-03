@@ -34,14 +34,14 @@ int main(int argc, char *argv[])
 {
 int i;
 int sum = 0;
-for (i = 1; i < argc; i++)
+while(--argc)
 {
-if (isNUMBER(argv[i]))
+if (isNUMBER(argv[argc]))
 {
 printf("Error\n");
 return (1);
 }
-sum += atoi(argv[i]);
+sum += atoi(argv[argc]]);
 }
 printf("%i\n", sum);
 return (0);
