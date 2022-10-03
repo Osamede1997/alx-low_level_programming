@@ -9,21 +9,15 @@
  */
 
 
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
-int a, b;
-
-a = atoi(argv[1]);
-b = atoi(argv[2]);
-
 (void)argc;
-
-if (argc - 1 != 2)
+if (argc != 3)
 {
 printf("Error\n");
 return (1);
 }
 
-printf("%i\n", a * b);
+printf("%i\n", atoi(argv[1]) * atoi(argv[2]));
 return (0);
 }
