@@ -41,7 +41,7 @@ if (isNUMBER(argv[i]))
 printf("Error\n");
 return (1);
 }
-sum = sum + atoi(argv[i]);
+sum += atoi(argv[i]);
 }
 printf("%i\n", sum);
 return (0);
