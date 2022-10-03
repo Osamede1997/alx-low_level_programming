@@ -4,15 +4,15 @@
  * main - program entry
  * @argc: argument count
  * @argv: argument vector
- * Return: 0 if success
+ * return: 0 if success
  */
 
 
 int main(int argc, char const *argv[])
 {
-void(argc);
+(void)argv;
 {
-printf("%s\n", argv[0]);
+printf("%i\n", argc - 1);
 }
 return (0);
 }
