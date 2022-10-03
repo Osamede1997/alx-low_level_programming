@@ -1,29 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+int isNUMBER(char *s);
 /**
- * isNumber - checks if array element is an int
- * @s: array pointer
- * Return: 0 for success
- */
-
-
-int isNUMBER(char *s)
-{
-int i = 0;
-while (s[i] != '\0')
-{
-if (s[i] < '0' || s[i] > '9')
-{
-return (1);
-}
-i++;
-}
-return (0);
-}
-
-/**
- * mn - program entry, adds int in command line
+ * main - program entry, adds int in command line
  * @argc: argument count
  * @argv: argument vector
  * Return: 0 if success
@@ -46,3 +27,26 @@ sum += atoi(argv[i]);
 printf("%i\n", sum);
 return (0);
 }
+
+
+/**
+ * isNumber - checks if array element is an int
+ * @s: array pointer
+ * Return: 0 for success
+ */
+
+
+int isNUMBER(char *s)
+{
+int i = 0;
+while (s[i] != '\0')
+{
+if (s[i] < '0' || s[i] > '9')
+{
+return (1);
+}
+i++;
+}
+return (0);
+}
+
