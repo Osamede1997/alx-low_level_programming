@@ -3,12 +3,6 @@
 
 
 int isNUMBER(char *s);
-/**
- * main - program entry, adds int in command line
- * @argc: argument count
- * @argv: argument vector
- * Return: 0 if success
- */
 
 
 int main(int argc, char *argv[])
