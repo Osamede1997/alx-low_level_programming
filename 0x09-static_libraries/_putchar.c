@@ -1,6 +1,12 @@
-#include "main.h"
+#include <unistd.h>
 
-int _putchar(char c)
+/**
+ * main - entry point
+ * _putchar - prints the char to the standard output
+ * Return: 0 if exited properly and non-zero if otherwise
+ */
+
+int _putchar(char b)
 {
-
+return (write(1, &b, 1));
 }
