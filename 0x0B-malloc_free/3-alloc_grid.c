@@ -29,7 +29,7 @@ twoD_array[i] = malloc(sizeof(int) * width);
 
 if (twoD_array[i] == NULL)
 {
-for (; i >= 0; i--)
+for ( ; i >= 0; i--)
 {
 free(twoD_array[i]);
 }
@@ -39,9 +39,9 @@ return (NULL);
 }
 }
 
-for (i = 0; i< height; i++)  
+for (i = 0; i < height; i++)  
 {
-for (j = 0; j< width; j++)
+for (j = 0; j < width; j++)
 {
 twoD_array[i][j] = 0;
 }
