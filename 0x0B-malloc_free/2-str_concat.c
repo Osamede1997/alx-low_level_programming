@@ -43,7 +43,7 @@ s2 = "";
 len1 = mylen(s1);
 len2 = mylen(s2);
 
-new = malloc((len1 + len2) * sizeof(char));
+new = malloc((len1 + len2 + 1) * sizeof(char));
 
 if (new == 0)
 {
@@ -63,6 +63,5 @@ new[i] = s2[i - len1];
 }
 
 return (new);
-
 
 }
