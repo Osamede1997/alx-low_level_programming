@@ -20,7 +20,7 @@ return (i);
 
 
 /**
- * str_nconcat - concatenate two strings
+ * string_nconcat - concatenate two strings
  * @s1: string 1
  * @s2: string 2
  * @n: number of bytes
