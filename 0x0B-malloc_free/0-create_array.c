@@ -5,13 +5,13 @@
  * create_array - function that creates an array of chars
  * @size: array size
  * @c: first character
- * return: pointer to array
+ * Return: pointer to array
  */
 
 char *create_array(unsigned int size, char c)
 {
 
-int i;
+unsigned int i;
 char *d = malloc(sizeof(char) * size);
 
 if (size == 0 || d == 0)
