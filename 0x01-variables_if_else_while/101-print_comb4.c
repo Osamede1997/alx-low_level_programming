@@ -17,17 +17,16 @@ a = (n / 100 + '0');
 b = (n / 10 + '0');
 c = (n % 10 + '0');
 
-if (a < b && b < c)
-{
 putchar(a);
 putchar(b);
 putchar(c);
-if (n < 789)
-{
 putchar(',');
 putchar(' ');
-}
-}
+
+while (n >= 100 && n > 100)
+
+
+
 n++;
 }
 putchar('\n');
