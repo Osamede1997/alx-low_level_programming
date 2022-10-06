@@ -9,12 +9,11 @@
  */
 int **alloc_grid(int width, int height)
 {
-int **twoD_array;
-int i, j;
+int **twoD_array, i, j;
 
 if (width <= 0 || height <= 0)
 {
-return(NULL);
+return (NULL);
 }
 	
 twoD_array = malloc(sizeof(int *) * height);
@@ -40,9 +39,9 @@ return (NULL);
 }
 }
 
-for (i = 0; i < height; i++)
+for (i = 0; i< height; i++)  
 {
-for (j = 0; j < width; j++)
+for (j = 0; j< width; j++)
 {
 twoD_array[i][j] = 0;
 }
