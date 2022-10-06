@@ -29,7 +29,7 @@ return (i);
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-unsigned int len1, len2, i, j;
+unsigned int len, i, j;
 
 char *new;
 
@@ -42,18 +42,11 @@ if (s2 == NULL)
 s2 = "";
 }
 
-len1 = mylen(s1);
-len2 = mylen(s2);
+len = mylen(s1);
 
-if (n < len2)
-{
-new = malloc((len1 + n + 1) * sizeof(char));
-}
 
-else 
-{
-new = malloc((len1 + len2 + 1) * sizeof(char));
-}
+new = malloc((len + n + 1) * sizeof(char));
+
 if (new == 0)
 {
 return (0);
