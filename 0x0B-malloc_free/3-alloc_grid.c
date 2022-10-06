@@ -14,7 +14,7 @@ int i, j;
 
 if (width <= 0 || height <= 0)
 {
-return (NULL);
+return(NULL);
 }
 	
 twoD_array = malloc(sizeof(int *) * height);
@@ -35,6 +35,7 @@ for (; i >= 0; i--)
 free(twoD_array[i]);
 }
 free(twoD_array);
+
 return (NULL);
 }
 }
