@@ -5,24 +5,24 @@
 /**
  * mylen - calculates length of string
  * @s: string
- * return: length of string
+ * Return: length of string
  */
 
 int mylen(char *s)
 {
-int i;
-for (i = 0; s[i] != '\0'; i++)
+int i = 0;
+while (s[i] != '\0')
 {
-;
+i++;
 }
 return (i);
 }
 
 /**
- * str_concat _concatenate two strings
+ * str_concat - concatenate two strings
  * @s1: string 1
  * @s2: string 2
- * return: pointer to new concatenated string
+ * Return: pointer to new concatenated string
  */
 
 char *str_concat(char *s1, char *s2)
@@ -43,7 +43,7 @@ s2 = "";
 len1 = mylen(s1);
 len2 = mylen(s2);
 
-new = malloc((len1 + len2) * sizeof(char) + 1);
+new = malloc((len1 + len2) * sizeof(char));
 
 if (new == 0)
 {
@@ -61,7 +61,6 @@ else
 new[i] = s2[i - len1];
 }
 }
-new[i] = '\0';
 
 return (new);
 

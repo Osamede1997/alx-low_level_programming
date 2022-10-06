@@ -23,7 +23,7 @@ for (i = 0; str[i] != '\0'; i++)
 ;
 }
 
-cpy = malloc(i * sizeof(*str) + 1);
+cpy = malloc(sizeof(*str) * (i + 1));
 
 if (cpy == NULL)
 {
@@ -34,5 +34,6 @@ for (j = 0; j < i; j++)
 {
 cpy[j] = str[j];
 }
+cpy[j] = '\0';
 return (cpy);
 }
