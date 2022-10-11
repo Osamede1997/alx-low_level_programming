@@ -1,4 +1,4 @@
-#include "main.h"
+#include "dog.h"
 #include <stdlib.h>
 
 /**
@@ -12,6 +12,7 @@ if (d == NULL)
 {
 return;
 }
+
 free(d->owner);
 free(d->name);
 free(d);
