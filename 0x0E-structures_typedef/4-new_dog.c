@@ -58,7 +58,7 @@ len2 = _strlen(owner);
 
 dog = malloc(sizeof(dog_t));
 
-if (doggo == NULL)
+if (dog == NULL)
 {
 return (NULL);
 }
