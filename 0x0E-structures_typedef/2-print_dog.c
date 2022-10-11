@@ -1,6 +1,11 @@
 #include "dog.h"
 #include <stdio.h>
 
+/**
+ * print_dog - print out elements
+ * @d: to be printed
+ */
+
 void print_dog(struct dog *d)
 {
 if (d == NULL)
