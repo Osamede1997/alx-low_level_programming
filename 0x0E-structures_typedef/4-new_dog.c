@@ -45,7 +45,7 @@ return (dest);
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
- * return: pointer to new dog
+ * Return: pointer to new dog
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -78,8 +78,8 @@ free(doggo->name);
 return (NULL);
 }
 
-_strcpy(doggo->name, name);
-_strcpy(doggo->owner, owner);
+doggo->name = _strcpy(doggo->name, name);
+doggo->owner = _strcpy(doggo->owner, owner);
 doggo->age = age;
 
 return (doggo);
