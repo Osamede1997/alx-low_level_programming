@@ -45,6 +45,7 @@ return (dest);
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
+ * return: pointer to new dog
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
