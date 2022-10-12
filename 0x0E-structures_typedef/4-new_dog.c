@@ -60,6 +60,7 @@ doggo = malloc(sizeof(dog_t));
 
 if (doggo == NULL)
 {
+free(doggo);
 return (NULL);
 }
 
