@@ -20,11 +20,12 @@ if (array == NULL || cmp == NULL)
 return (-1);
 }
 
-for (i = 0; i < size; i++)
+for (index_i = 0; index_i < size; index_i++)
 {
-if (cmp(array[i]) != 0)
+if (cmp(array[index_i]) != 0)
 {
 return (index_i);
+}
 }
 
 return (-1);
