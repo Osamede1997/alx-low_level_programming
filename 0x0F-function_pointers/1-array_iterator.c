@@ -3,7 +3,7 @@
 
 /**
  * array_iterator - function that executes a function
- * @array: array
+ * @array: The array
  * @size: size of array
  * @action: pointer to function
  */
@@ -19,9 +19,10 @@ if (array == NULL || action == NULL)
 return;
 }
 
-for (i = 0; i < size; i++)
+while (size--)
 {
-action(array[i]);
+action(*array);
+array++;
 }
 
 }
