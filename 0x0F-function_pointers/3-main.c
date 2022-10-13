@@ -37,6 +37,6 @@ exit(99);
 num1 = atoi(argv[1]);
 num2 = atoi(argv[3]);
 
-printf("%d\n", f(a, b));
+printf("%d\n", f(num1, num2));
 return (0);
 }
