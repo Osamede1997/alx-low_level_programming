@@ -3,10 +3,10 @@
 
 /**
  * int_index - function that searches for an integer
- * @array: array
+ * @array: array of integers
  * @size: size of array
  * @cmp: pointer to function
- * return: integer
+ * return: 0 or -1 or the index of first element
  */
 
 
