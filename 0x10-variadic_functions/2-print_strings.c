@@ -24,7 +24,7 @@ word = va_arg(next_var, char *);
 
 if (word == NULL)
 {
-printf("nil");
+printf("(nil)");
 }
 else
 {
