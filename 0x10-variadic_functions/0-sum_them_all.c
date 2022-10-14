@@ -5,6 +5,7 @@
 /**
  * sum_them_all - function that sums all parameters
  * @n: const int
+ * @...: A variable number of arguments to be printed.
  * Return: return the sum int
  */
 
@@ -27,7 +28,7 @@ for (i = 0; i < n; i++)
 {
 sum += va_arg(next_var, int);
 }
- 
+
 va_end(next_var);
 
 return (sum);
