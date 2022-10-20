@@ -3,9 +3,8 @@
 #include <stdlib.h>
 
 /**
- * 
- * 
- * 
+ * free_list - Frees a list
+ * @head: pointer to list
  */
 
 void free_list(list_t *head)
@@ -14,7 +13,7 @@ void free_list(list_t *head)
 
         while (head)
         {
-                tmp = head->next
+                tmp = head->next;
                 free(head->str);
                 free(head);
                 head = tmp;
