@@ -21,5 +21,5 @@ free(*head);
 *head = tmp;
 }  
 
-*head = NULL;
+head = NULL;
 }
