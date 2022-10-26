@@ -5,9 +5,9 @@
  * @head: pointer to list
  */
 
-void free_listint(list_t *head)
+void free_listint(listint_t *head)
 {
-list_t *tmp;
+listint_t *tmp;
 
 while (head)
 {

@@ -5,13 +5,13 @@
  * @head: pointer to list
  */
 
-void free_listint2(list_t **head)
+void free_listint2(listint_t **head)
 {
-list_t *tmp;
+listint_t *tmp;
 
 if (head == NULL)
 {
-return (NULL);
+return;
 }
 
 while (head)
