@@ -12,7 +12,7 @@ list_t *tmp;
 while (head)
 {
 tmp = head->next;
-free(head->n);
 free(head);
 head = tmp;
-}   
+}
+}
