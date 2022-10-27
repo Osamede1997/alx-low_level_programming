@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_listint - Frees a list
+ * free_listint2 - Frees a list
  * @head: pointer to list
  */
 
@@ -19,7 +19,7 @@ while (*head)
 tmp = (*head)->next;
 free(*head);
 *head = tmp;
-}  
+}
 
 head = NULL;
 }
