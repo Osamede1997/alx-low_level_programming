@@ -14,7 +14,7 @@ if (head == NULL)
 return;
 }
 
-while (head)
+while (*head)
 {
 tmp = (*head)->next;
 free(*head);
