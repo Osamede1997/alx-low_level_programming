@@ -25,12 +25,12 @@ int create_file(const char *filename, char *text_content)
     }
 
 	file3 = open(filename, O_WRONLY | O_APPEND);
-	w = write(file2, text_content, len);
+	w = write(file3, text_content, len);
 
 	if (file3 == -1 || w == -1)
 		return (-1);
 
 	close(file3);
 
-	return (1);
+    return (1);
 }
