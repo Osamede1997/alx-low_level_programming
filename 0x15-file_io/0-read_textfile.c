@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * read_textfile - function that reads a text file and prints it to the POSIX standard output.
@@ -9,7 +10,7 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-    ssize_t o, r, w;
+    ssize_t file1, r, w;
     char *size;
 
     size = malloc(sizeof(char) * letters);
