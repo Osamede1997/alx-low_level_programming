@@ -21,7 +21,7 @@ for (len = 0; text_content[len];)
 {	
 len++;
 }
-	
+
 }
 
 file3 = open(filename, O_WRONLY | O_APPEND);
