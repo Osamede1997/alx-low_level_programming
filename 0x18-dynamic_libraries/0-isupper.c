@@ -1,12 +1,18 @@
-#include <unistd.h>
-
+#include "main.h"
 /**
- * main - entry point
- * _putchar - prints the char to the standard output
- * Return: 0 if exited properly and non-zero if otherwise
+ * _isupper - check if alphabet is uppercase
+ * @c : print int
+ * Return: Always 0
  */
 
-int _putchar(char b)
+int _isupper(int c)
 {
-return (write(1, &b, 1));
+if (c >= 'A'  && c <= 'Z')
+{
+return (1);
+}
+else
+{
+return (0);
+}
 }
